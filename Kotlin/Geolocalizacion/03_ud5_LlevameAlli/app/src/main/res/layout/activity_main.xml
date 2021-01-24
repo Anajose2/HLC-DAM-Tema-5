@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/descripcion" />
+
+    <EditText
+        android:id="@+id/etDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tvDescripcion"
+        android:ems="10"
+        android:hint="@string/descripcionHint" >
+
+        <requestFocus />
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/cbDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/etDireccion"
+        android:text="@string/esDireccion" />
+
+    <Button
+        android:id="@+id/butGeocode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/cbDireccion"
+        android:onClick="onClickGeocode"
+        android:text="@string/geocode" />
+
+    <Button
+        android:id="@+id/butLLevame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/butGeocode"
+        android:onClick="onClickLlevame"
+        android:text="@string/llevame" />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/butLLevame"
+        android:text="@string/resultado" />
+
+    <TextView
+        android:id="@+id/tvInformacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tvResultado"
+        android:text="@string/informacion" />
+
+</RelativeLayout>

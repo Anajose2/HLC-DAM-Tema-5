@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">03_Ud5_LlevameAlli</string>
+    <string name="descripcion">Descripción de la dirección / par de coordenadas (latitud, longitud) lat[-90,90] y lon[-180,180]</string>
+    <string name="descripcionHint">direccion o latitud, longitud</string>
+    <string name="esDireccion">¿Es una dirección?</string>
+    <string name="geocode">Geocode</string>
+    <string name="llevame">Llévame allí</string>
+    <string name="resultado">Resultado:</string>
+    <string name="informacion"></string>
+</resources>

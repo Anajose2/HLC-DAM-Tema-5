@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/tvLatitud1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"/>
+    <!--android:text="Latitud:" -->
+
+    <TextView
+        android:id="@+id/tvLatitud2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_toRightOf="@+id/tvLatitud1"
+        android:hint="Latitud" />
+
+    <TextView
+        android:id="@+id/tvLongitud1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvLatitud2"/>
+    <!--android:text="Longitud:" -->
+
+    <TextView
+        android:id="@+id/tvLongitud2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvLatitud2"
+        android:layout_below="@+id/tvLatitud2"
+        android:hint="Longitud" />
+
+    <Button
+        android:id="@+id/btnLocaliza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvLongitud1"
+        android:onClick="onClickDondeEstoy"
+        android:text="Dónde estoy?" />
+
+</RelativeLayout>

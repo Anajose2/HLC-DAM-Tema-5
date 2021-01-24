@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_alcazaba"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/menu_alcazaba" />
+    <item
+        android:id="@+id/menu_posicion"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/menu_posicion" />
+    <item
+        android:id="@+id/menu_spain"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/menu_spain" />
+    <item
+        android:id="@+id/menu_spain_zoom"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/menu_spain_zoom" />
+    <item
+        android:id="@+id/menu_vista"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/menu_vista" />
+</menu>

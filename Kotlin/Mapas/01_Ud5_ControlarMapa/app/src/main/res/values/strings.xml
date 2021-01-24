@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">01_Ud5_ControlarMapa</string>
+    <string name="title_activity_controlar_mapa">ControlarMapa</string>
+
+    <string name="menu_alcazaba">Alcazaba</string>
+    <string name="menu_posicion">Posición</string>
+    <string name="menu_spain">España(x6)</string>
+    <string name="menu_spain_zoom">España(x5)</string>
+    <string name="menu_vista">Vista</string>
+</resources>

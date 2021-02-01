@@ -174,7 +174,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     public void onStatusChanged(String provider, int estado, Bundle extras) {
         //mediante E[] puede avisar 'fuera de servicio'
         vista("Cambia estado proveedor: " + proveedor + ", estado="
-                + E[Math.max(0, estado)] + ", extras=" + extras + "\n");
+                + estado + ", extras=" + extras + "\n");
     }
 
     // Métodos para mostrar información

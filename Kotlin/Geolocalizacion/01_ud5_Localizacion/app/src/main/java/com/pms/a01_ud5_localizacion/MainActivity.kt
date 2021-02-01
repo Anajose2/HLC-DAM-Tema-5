@@ -135,7 +135,7 @@ class MainActivity : AppCompatActivity(), LocationListener {
     override fun onStatusChanged(provider: String, estado: Int, extras: Bundle) {
         //mediante E[] puede avisar 'fuera de servicio'
         vista("""
-    Cambia estado proveedor: $proveedor, estado=${E[Math.max(0, estado)]}, extras=$extras
+    Cambia estado proveedor: $proveedor, estado=${estado}, extras=$extras
     
     """.trimIndent())
     }
